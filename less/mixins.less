@@ -1,1 +1,15 @@
 // Mixins in here
+.btn-style(@fs,@ta) {
+
+    background-color: @eastern-blue;
+    border-radius: 2rem;
+    color: @white;
+    font-size: @fs;
+    text-align: @ta;
+    height: auto;
+    width: fit-content;
+    padding: 5%;
+    @media @mobile {
+        width: 100%;
+    }
+}
